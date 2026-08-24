@@ -1,0 +1,122 @@
+---
+layout: default
+title: Homepage
+seo:
+  title: 
+  description:
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
+swiper: true
+header_banners:
+  - /images/familienstellen/regula-aschwanden-familienstellen-banner-2.jpg
+  - /images/familienstellen/regula-aschwanden-familienstellen-banner-1.jpg
+swiper_1:
+  - image: /images/familienstellen/regula-aschwanden-familienstellen-swiper-1.jpg
+  - image: /images/familienstellen/regula-aschwanden-familienstellen-swiper-2.jpg
+  - image: /images/familienstellen/regula-aschwanden-familienstellen-swiper-3.jpg
+
+---
+
+<!------------------------ Image Banner  ------------------------>
+
+{% include sub-menu.html %}
+
+
+<section class="bg-v-light">
+  <div class="editable padded capped-width grid-middle-spaceAround">
+
+    <div class="padded col-6 padded">
+            <h1> Familienstellen </h1> 
+
+      <p class="emphasis">Familienordnung – Die Kraft der Wurzeln und der Flügel</p>
+
+      <p>Die Familie ist unser erstes und prägendstes System. Hier entstehen unsere Wurzeln, unsere Werte und oft auch Muster, die uns ein Leben lang begleiten.</p>
+
+      <p>In der Familienordnung schauen wir gemeinsam auf die Beziehungen und Dynamiken innerhalb des Familiensystems. Oft zeigen sich wiederkehrende Herausforderungen, Konflikte oder Belastungen, deren Ursprung tiefer liegt, als uns bewusst ist.</p>
+      <br>
+      <a href="/termin-buchen.html" class="button"> Termin buchen </a>
+    </div>
+    <div class="col-6 padded">
+      <img src="/images/familienstellen/regula-aschwanden-familienstellen-2.jpg" class="img-style-1">
+    </div>
+    <div class="col-12 padded padded-t-0">
+      <div class="editable padded-2 center">
+        <p class="quote"> wahrnehmen. erkennen. gehen. </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tall-50 bg-image bg-familienstellen-1"></section>
+
+
+
+
+<section class="relative">
+  <div class="grid padded">
+    <div class="col-10 padded  bg-index-1">
+      <h2> Wahrnehmen </h2>
+      <p> 
+       Gemeinsam nehmen wir wahr, was sich im Familiensystem zeigt. Welche Themen belasten? Welche Muster wiederholen sich? Wo gerät die natürliche Ordnung ins Ungleichgewicht?
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="relative">
+  <div class="grid padded padded-t-0">
+    <div class="col-2 relative">  <div class="pa2">
+    <img src="/icons/regula-aschwanden-icon-braun.svg">
+  </div></div>
+    <div class="col-10 padded  bg-index-2">
+      <h2> Bewusst werden </h2>
+      <p> 
+         Durch das Erkennen von Zusammenhängen entsteht Verständnis. Verdeckte Dynamiken, Loyalitäten und Verstrickungen dürfen sichtbar werden. Bewusstheit eröffnet neue Perspektiven und schafft Raum für Veränderung.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<section class="capped-width relative">
+  <div class="grid padded padded-t-0">
+    <div class="col-12 padded  bg-index-3">
+      <h2> Verändern </h2>
+      <p>Wo Verständnis wächst, kann Heilung entstehen. Die natürliche Ordnung darf wieder ihren Platz finden. Dadurch werden neue Wege möglich, Beziehungen können sich entspannen und das Leben kommt wieder in einen harmonischeren Fluss.</p>
+
+      <p>Im systemischen Arbeiten spricht man von der Ordnung der Liebe, einem Begriff, der von Bert Hellinger geprägt wurde. Wie in jedem lebendigen System braucht auch eine Familie:</p>
+
+      <ul>
+        <li>Ordnung</li>
+        <li>Struktur</li>
+        <li>Achtung und Respekt füreinander</li>
+      </ul>
+
+      <p>Wenn diese Ordnung gestärkt wird, können Wurzeln wachsen und Flügel entstehen. So wird es möglich, den eigenen Platz im Leben einzunehmen, gestärkt den eigenen Weg zu gehen und gleichzeitig mit den familiären Wurzeln verbunden zu bleiben</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="padded capped-width">
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      {% for swiper in page.swiper_1 %}
+        <div class="swiper-slide">
+          <div class="bg-image bg-image-swiper portrait" style="background-image: url('{{ swiper.image }}');"></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <!-- <div class="try-to-slide editable">
+    <p> -> du kannst hier swipen </p>
+  </div> -->
+</section>

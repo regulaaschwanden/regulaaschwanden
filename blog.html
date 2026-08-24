@@ -1,0 +1,61 @@
+---
+layout: default
+title: Homepage
+lang: de
+seo:
+  title: 
+  description:
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
+header_banners:
+  - /images/blog/regula-aschwanden-blog-banner.jpg
+swiper: true
+---
+
+<section class="capped-width">
+  <div class="editable padded">
+    <div class="padded">
+      <h2> Blog </h2>
+        <p class="emphasis"> Hier teile ich Gedanken, Impulse und Inspirationen rund um persönliche Entwicklung, Bewusstsein und ein erfülltes Leben.</p>
+      </div>
+    </div>
+</section>
+
+
+
+<section class="bg-texture-1 md-padded-2 padded-t-1 padded">
+
+    <div class="capped-width grid-center blog-box">
+
+
+        {% assign current_lang = page.lang | default: site.lang | default: 'de' %}
+        {% assign lang_posts = site.posts | where: "lang", current_lang %}
+
+        {% for post in lang_posts limit:24 %}
+        {% include post-loop-item-square.html %}
+        {% endfor %}
+
+
+    </div>
+
+</section>
+
+
+
+<!----->
+<section class="capped-width md-padded-2 padded-b-05 padded-t-0">
+
+
+    {% assign post_count = site.posts | size %}
+    
+    {% if post_count > 15 %}
+        <div class="center padded-2">
+            <a class="button" href="/blog-archiv"> Archiv </a>
+        </div>
+       
+    {% endif %}
+
+</section>
+

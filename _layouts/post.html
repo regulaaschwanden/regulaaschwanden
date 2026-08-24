@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<section>
+
+    <section class="capped-width-narrow blog-content">
+            <div class="padded">
+                <h2 class="blog-title-2"> {{ page.title }} </h2>  
+                <p class="post-info"> by {{ page.author }} | {{ page.date | date_to_string }} </p>
+                <br>
+                {{content}}
+            </div>
+    </section>
+
+
+    <section class="capped-width-narrow">
+        <div class="padded padded-t-0 center">
+            <p class="emphasis"> Schau dir auch meine weiteren Blog Posts an: </p>
+            <div class="capped-width grid">
+
+                    {% assign current_lang = page.lang | default: site.lang | default: 'de' %}
+                    {% assign lang_posts = site.posts | where: "lang", current_lang %}
+
+                    {%- comment -%} exclude the current page/post {%- endcomment -%}
+                    {% assign lang_posts = lang_posts | where_exp: "p", "p.url != page.url" %}
+
+                    {%- comment -%} optional: ensure newest first {%- endcomment -%}
+                    {% assign lang_posts = lang_posts | sort: "date" | reverse %}
+
+                    {%- for post in lang_posts limit: 6 -%}
+                    <a class="col-6_md-12-middle post-item padded-2 sm-padded-1 post-item-hover" href="{{ post.url }}" style="text-decoration: none;">
+                        <div class="grid">
+                        <div class="col-3-middle">
+                            <div class="bg-image square" style="background-image:url('{{ post.featured_image }}');"></div>
+                        </div>
+                        <div class="col-9-middle padded-1">
+                            <h4 class="margin-t-05 margin-b-05 subtle-heading-xs blog-h4">{{ post.title }}</h4>
+                            <!-- <p class="hide-xs">{{ post.description }}</p> -->
+                        </div>
+                        </div>
+                    </a>
+                    {%- endfor -%}
+
+        
+            </div>
+        </div>
+    </section>
+
+</section>
+

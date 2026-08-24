@@ -142,6 +142,21 @@ html {
   bottom: 1rem;
   right: 1rem;
 }
+
+.pa4 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 7rem;
+}
+
+.pa5 {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 7rem;
+}
+
 /* ------------ Backgrounds & Background Images  ----------------------- */
 
 .bg-dark     { background-color: var(--dark);}
@@ -193,6 +208,10 @@ html {
     background-repeat: no-repeat;
 }
 
+.bg-image-swiper {
+  border-radius: 2rem;
+}
+
 .bg-quote-index-1 {
       background-image: url('/images/regula-aschwanden-quote-banner-1.jpg');
 
@@ -205,7 +224,7 @@ html {
 }
 
 .img-style-1 {
-  border-radius: 10px;
+  border-radius: 2rem;
 }
 
 .bg-overlay::after {
@@ -217,6 +236,10 @@ html {
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0,0.5);
+}
+
+.bg-familienstellen-1 {
+  background-image: url('/images/familienstellen/regula-aschwanden-familienstellen-3.jpg');
 }
 
 
@@ -264,13 +287,15 @@ body {
   color: var(--dark-text);
 }
 
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   margin-bottom: 1.2rem;
   font-weight: 400;
 }
 
-h1 { font-size: 3rem ;}
+h1 {   font-size: 3rem;
+  font-family: 'Cairo', serif;   font-weight: 400;
+}
 h2 { 
   font-size: 3rem;
   font-family: 'Cairo', serif;
@@ -287,6 +312,14 @@ p, li {
   font-weight: 300;
   font-size: 1.2rem;
 }
+
+li {margin-bottom: 0;}
+
+li:last-child {
+  margin-bottom: 1rem;
+}
+
+ul { margin-left: 2rem;}
 
 .quote { 
   font-family: 'HV Muse', serif;
@@ -308,7 +341,7 @@ p:last-child {
 }
 
 /* Unique Typography Styles  */
-.emphasis       { font-size: 1.2rem; }
+.emphasis       { font-size: 1.2rem; font-weight: 400; }
 .text-featured  { color: var(--featured-text);}
 .text-light     { color: var(--light-text);}
 .subtle         { opacity: 0.8;     }
@@ -358,6 +391,22 @@ p a:hover {
     color: var(--featured-text);
 }
 
+.button-2 { 
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid;
+    background-color: var(--v-light);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: var(--dark-text);
+}
+
+.button-2:hover {
+    color: var(--featured-text);
+}
+
 .subtle-button {
   text-decoration: none;
   border-bottom: 1px solid;
@@ -393,53 +442,87 @@ nav a:hover {
   border-bottom: 1px solid var(--dark-text);
 }
 
+/* ------------ Header Slider -------------- */
+
 .header-slider {
   position: relative;
   overflow: hidden;
-
-  /* Erstes Hintergrundbild */
-  background-image: url("/images/regula-aschwanden-index-banner-1.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
-/* Zweites Hintergrundbild */
-.header-slider::before {
-  content: "";
+
+/* Container der Hintergrundbilder */
+
+.header-slider-images {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+
+/* Einzelnes Hintergrundbild */
+
+.header-slide {
   position: absolute;
   inset: 0;
 
-  background-image: url("/regula-aschwanden-index-banner-2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
   opacity: 0;
-  animation: header-fade 12s ease-in-out infinite;
+
+  transition: opacity 1.5s ease-in-out;
 }
 
-/* Damit Logo und Navigation über den Bildern liegen */
+
+/* Aktuell sichtbares Bild */
+
+.header-slide.active {
+  opacity: 1;
+}
+
+
+/* Header-Inhalt über den Bildern */
+
 .header-content {
   position: relative;
   z-index: 2;
+
   min-height: 100%;
+
+  margin: 1rem;
+  margin-top: 7rem;
+
+  border-radius: 5px;
+  border: 1px solid var(--dark-text);
+
+  padding: 0.5rem;
 }
 
-@keyframes header-fade {
-  0%,
-  40% {
-    opacity: 0;
-  }
 
-  50%,
-  90% {
-    opacity: 1;
-  }
+/* Logo */
 
-  100% {
-    opacity: 0;
-  }
+.pa-bg-logo-header {
+  position: absolute;
+
+  top: -6rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 14rem;
+
+  margin: auto;
+}
+
+
+.bg-logo-header {
+  background-color: var(--v-light);
+
+  border-radius: 50rem;
+  padding: 1rem;
+
+  border: 1px solid var(--dark-text);
 }
 
 
@@ -486,12 +569,11 @@ footer a {
 }
 
 footer nav a {
-  text-align: right;
+  text-align: center;
   display: block;
   text-decoration: none;
-  padding: 0.2rem 0 0.2rem 0.2rem;
-  text-transform: uppercase;
-  font-weight: 200;
+  padding: 1rem 0 1rem 0;
+  font-weight: 300;
 }
 
 .fa-brands {
@@ -505,7 +587,17 @@ footer nav a {
   border-bottom: none;
 }
 
+.footer-logo {
+  width: 700px;
+}
 
+.size-09 {
+  font-size: 0.9rem;
+}
+
+.termin-buchen-text {
+  font-size: 2.5rem;
+}
 /* Dropdown styles */
 
 .dropdown { 
@@ -745,7 +837,7 @@ input, textarea {
   padding: 0.5rem;
   font-family: inherit;
   font-size: 1rem;
-  border: 2px solid var(--medium);
+  border: 2px solid var(--dark-text);
   color: var(--dark-text);
   background-color: white;
 }
@@ -754,7 +846,7 @@ input, textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  border: 2px solid var(--light);
+  border: 2px solid var(--medium);
 }
 
 
@@ -763,16 +855,16 @@ textarea {
 }
 
 button {
-    font-size: 1.2rem;
     display: inline-block;
     text-decoration: none;
-    border: 1px solid var(--medium);
-    text-align: center;
-    background-color: transparent;
-    cursor: pointer;
-    font-weight: 400;
-    font-family: 'Jost', sans-serif;
-    padding: 0.5rem 1rem;
+    line-height: 1;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid;
+    background-color: var(--medium);
+    border-radius: 5px;
+    font-size: 1.2rem;
+      font-family: 'Montserrat', serif; 
+
 }
 
 button:hover {
@@ -780,9 +872,20 @@ button:hover {
 }
 
 /* ------------ Blogging elements  ----------------------- */
+.blog-image {
+  border-radius: 2rem;
+}
 
+.blog-title {
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+}
 
+.sub-menu {
+  padding-top: 1.4rem;
+}
 
+.blog-h4 { text-decoration: none;}
 
 
 /* Miscelaneous elements  */

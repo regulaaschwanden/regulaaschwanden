@@ -1,0 +1,72 @@
+---
+layout: default
+title: Homepage
+seo:
+  title: 
+  description:
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
+header_banners:
+  - /images/kontakt.jpg
+swiper: false
+---
+
+
+
+{% include sub-menu.html %}
+
+
+
+
+<section>
+    <div class="capped-width-narrow padded padded-t-2">
+        <p class="padded-t-2 editable center editable">
+            Fülle das Kontaktformular aus oder sende mir direkt eine Email an:
+            <a href="mailto:info@regulaaschwanden.ch" class="email"> info@regulaaschwanden.ch </a>
+        </p>
+
+        <form class="margin-t-2" action="https://formspree.io/f/#" method="POST">
+            <label for="_vorname"> Vorname </label>
+            <input type="text" name="_vorname" id="_vorname" placeholder="Vorname" required />
+
+            <label for="_nachname"> Nachname </label>
+            <input type="text" name="_nachname" id="_nachname" placeholder="Nachname" required />
+
+            <label for="_adresse"> Strasse, Nr. </label>
+            <input type="text" name="_adresse" id="_adresse" placeholder="Strasse, Nr." required />
+
+            <label for="_wohnort"> PLZ, Wohnort </label>
+            <input type="text" name="_wohnort" id="_wohnort" placeholder="PLZ, Wohnort" required />
+
+            <label for="_replyto"> Email </label>
+            <input type="email" name="_replyto" id="_replyto" placeholder="Email" required />
+
+            <label for="phone"> Telefonnummer </label>
+            <input type="tel" id="phone" name="phone" pattern="+[0-9]{2}-[0-9]{2}-[0-9]{3}-[0-9]{4}" placeholder="+41 79 456 6709" />
+
+
+            {% for seminar in page.seminare %}
+
+            <label for="{{ seminar.id }}">{{ seminar.label }}</label>
+            <select name="{{ seminar.id }}" id="{{ seminar.id }}">
+                <option value="" disabled selected hidden>Option auswählen</option>
+
+                {% for option in seminar.options %}
+                <option value="{{ option }}">{{ option }}</option>
+                {% endfor %}
+
+            </select>
+
+            {% endfor %}
+
+
+            <label for="message"> Kommentar </label>
+            <textarea name="message" id="message" placeholder="Kommentar" required></textarea>
+
+            <button type="submit" class="button-2"> Abschicken </button>
+        </form>
+    </div>
+</section>
+

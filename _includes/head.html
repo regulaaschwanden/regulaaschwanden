@@ -20,6 +20,11 @@
      <meta name="robots" content="index, follow">
 {% endif %}
 
+<!-- ------------ Swiper Styles (conditionally) ------------ -->
+{% if page.swiper == true %}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper/css/effect-fade.min.css">
+{% endif %}
 
 <!------------  Social media sharing META Tags ------------>
 <meta property="og:title" content="{{ page.title | default: site.data.site-settings.seo.title }}">

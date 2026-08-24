@@ -1,0 +1,81 @@
+---
+layout: default
+title: Homepage
+seo:
+  title: 
+  description:
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
+header_banners:
+  - /images/ueber-mich/regula-aschwanden-ueber-mich-1.jpg
+  - /images/ueber-mich/regula-aschwanden-ueber-mich-2.jpg
+  - /images/ueber-mich/regula-aschwanden-ueber-mich-3.jpg
+swiper: true
+swiper_1:
+  - image: /images/ueber-mich/regula-aschwanden-ueber-mich-swiper-1.jpg
+  - image: /images/ueber-mich/regula-aschwanden-ueber-mich-swiper-2.jpg
+  - image: /images/ueber-mich/regula-aschwanden-ueber-mich-swiper-3.jpg
+  - image: /images/ueber-mich/regula-aschwanden-ueber-mich-swiper-4.jpg
+
+---
+
+
+
+{% include sub-menu.html %}
+
+
+
+<section class="capped-width">
+  <div class="editable padded">
+    <div class="padded">
+      <h2> Mein Weg </h2>
+        <p class="emphasis">Ich bin bereit. Bist du es auch?</p>
+
+        <p>Ich bin Regula Aschwanden und mit viel Herz, fundiertem Fachwissen und grosser Begeisterung begleite ich Menschen auf ihrem persönlichen Entwicklungsweg. Meine vielfältigen Lebenserfahrungen haben mich zu der Person gemacht, die ich heute bin.</p>
+
+        <p>Die vielen Stationen meines Lebens haben einen wertvollen Schatz an Erfahrungen, tiefen Erkenntnissen und bewährten Werkzeugen entstehen lassen. Viele wichtige Lebensthemen habe ich nicht nur durch Aus- und Weiterbildungen kennengelernt, sondern auch selbst erlebt, durchlebt und gemeistert. Gerade diese persönlichen Erfahrungen ermöglichen es mir, Menschen authentisch, einfühlsam und mit grossem Verständnis zu begleiten.</p>
+
+        <p>Ich weiss aus eigener Erfahrung, dass das Leben Herausforderungen, Veränderungen und manchmal auch tiefe Krisen mit sich bringt. Gleichzeitig weiss ich, dass in jeder Herausforderung die Chance für persönliches Wachstum, neue Perspektiven und positive Veränderung liegt.</p>
+
+        <p class="emphasis">„Persönliche Entwicklung bedeutet nicht, jemand anderes zu werden, sondern immer mehr die Person zu sein, die man im Innersten bereits ist.“</p>
+
+        <p>Mit Offenheit, Wertschätzung und viel Herz begleite ich Menschen auf ihrem ganz persönlichen Weg, damit sie ihre Stärken entdecken, ihr Potenzial entfalten und ihren eigenen, stimmigen Lebensweg finden können.</p>
+      <br>
+      <a href="/mein-angebot.html" class="button"> mehr erfahren </a>
+    </div>
+  </div>
+</section>
+
+
+<section class="capped-width grid-middle-spaceAround">
+  <div class="editable padded-2 left col-9_xs-12">
+    <p class="quote"> wahrnehmen. erkennen. gehen. </p>
+  </div>
+  <div class="col-2 padded-2">
+    <img src="/icons/regula-aschwanden-icon-braun.svg">
+  </div>
+</section>
+
+
+
+
+
+<section class="padded capped-width">
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      {% for swiper in page.swiper_1 %}
+        <div class="swiper-slide">
+          <div class="bg-image bg-image-swiper portrait" style="background-image: url('{{ swiper.image }}');"></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <!-- <div class="try-to-slide editable">
+    <p> -> du kannst hier swipen </p>
+  </div> -->
+</section>

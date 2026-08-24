@@ -1,0 +1,113 @@
+---
+layout: default
+title: Homepage
+seo:
+  title: 
+  description:
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
+swiper: true
+header_banners:
+  - /images/lernwerkstatt/regula-aschwanden-lernwerkstatt-banner.jpg
+swiper_1:
+  - image: /images/lernwerkstatt/regula-aschwanden-lernwerkstatt-swiper-1.jpg
+  - image: /images/lernwerkstatt/regula-aschwanden-lernwerkstatt-swiper-2.jpg
+  - image: /images/lernwerkstatt/regula-aschwanden-lernwerkstatt-swiper-3.jpg
+  - image: /images/lernwerkstatt/regula-aschwanden-lernwerkstatt-swiper-4.jpg
+---
+
+<!------------------------ Image Banner  ------------------------>
+
+{% include sub-menu.html %}
+
+
+<section>
+  <div class="editable padded capped-width grid-middle-spaceAround">
+
+    <div class="padded col-6 padded">
+      <h1> Lernwerkstatt </h1> 
+
+      <p>Offenes Lernatelier – Inspiration, Wissen & persönliche Entwicklung</p>
+
+      <p>In meinem offenen Lernatelier erwartet dich ein Raum voller Möglichkeiten. Hier verbinden sich Astrologie, Selbsthypnose, Mondwissen, Familienstellen, Handanalyse, Psychophysiognomik, geistiges Heilen und viele weitere spannende Themen zu einem lebendigen Erfahrungsfeld.</p>
+      <br>
+      <a href="/termin-buchen.html" class="button"> Termin buchen </a>
+    </div>
+    <div class="col-6 padded">
+      <img src="/images/lernwerkstatt/regula-aschwanden-lernwerkstatt-2.jpg" class="img-style-1">
+    </div>
+  </div>
+</section>
+
+<section class="bg-medium">
+  <div class="pa5">
+    <img src="/icons/regula-aschwanden-icon-braun.svg">
+  </div>
+  <div class="editable padded capped-width">
+    <div class="padded">
+      <h2> Wie sieht eine Lernwerkstatt aus? </h2>
+      <p>Du bringst dein eigenes Wissen, deine Erfahrungen und deine Fragen mit – und gemeinsam lassen wir daraus etwas Neues entstehen. Altes Wissen trifft auf neue Impulse. Intuition trifft auf Erfahrung. Bewusstsein trifft auf Entwicklung. So entsteht ein Lernen, das nicht nur im Kopf stattfindet, sondern im ganzen Menschen.</p>
+
+      <p>Warum das Lernatelier so wirkungsvoll ist:</p>
+
+      <ul>
+        <li>Gemeinsamer Austausch<br>Erfahrungen werden geteilt, verbunden und vertieft. Dadurch entstehen neue Sichtweisen und Aha-Momente, die du direkt in deinen Alltag mitnehmen kannst.</li>
+        <li>Neue Erkenntnisse, die dein Leben leichter machen<br>Die Impulse aus der Gruppe und aus der Arbeit an den jeweiligen Themen bereichern, stärken und erleichtern – oft schon nach dem ersten Abend.</li>
+        <li>Mehr Farbe, Leichtigkeit und Freiheit<br>Viele Teilnehmende berichten, dass das Lernatelier ihr Leben bewusster, klarer und freier macht – wie ein innerer Aufbruch in eine neue Qualität des Daseins.</li>
+        <li>Eine offene, bunte Gruppe<br>Alle sind willkommen – mit oder ohne Vorkenntnisse. Authentisch, wertschätzend und neugierig.</li>
+        <li>Flexible Teilnahme<br>Jeder Themenabend ist in sich abgeschlossen und kann einzeln besucht werden. Du entscheidest, was dich anspricht und was gerade für dich passt.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<section class="capped-width relative">
+  <div class="grid-middle-spaceAround padded padded-t-0">
+    <div class="col-5 padded">
+      <img src="/images/lernwerkstatt/regula-aschwanden-lernwerkstatt-3.jpg" class="img-style-1">
+    </div>
+    <div class="col-7 padded">
+      <h2> Für wen ist das Lernatelier geeignet ?</h2>
+     <p>Für Menschen, die</p>
+
+      <ul>
+        <li>neue Perspektiven entdecken möchten</li>
+        <li>sich weiterentwickeln oder bewusst werden wollen</li>
+        <li>einen geschützten, inspirierenden Raum suchen</li>
+        <li>Freude an persönlichem Wachstum haben</li>
+        <li>gern in einer offenen Gruppe lernen</li>
+      </ul>
+      <br>
+      <a href="/termin-buchen.html" class="button"> Termin buchen </a>
+    </div>
+  </div>
+</section><section>
+  <div class="editable padded-2 center">
+    <p class="quote"> wahrnehmen. erkennen. gehen. </p>
+  </div>
+</section>
+
+
+
+
+
+<section class="padded capped-width">
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      {% for swiper in page.swiper_1 %}
+        <div class="swiper-slide">
+          <div class="bg-image bg-image-swiper portrait" style="background-image: url('{{ swiper.image }}');"></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <!-- <div class="try-to-slide editable">
+    <p> -> du kannst hier swipen </p>
+  </div> -->
+</section>

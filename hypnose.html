@@ -1,0 +1,126 @@
+---
+layout: default
+title: Homepage
+seo:
+  title: 
+  description:
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
+header_banners:
+  - /images/hypnose/regula-aschwanden-hypnose.jpg
+swiper: true
+swiper_1:
+  - image: /images/hypnose/regula-aschwanden-hypnose-swiper-1.jpg
+  - image: /images/hypnose/regula-aschwanden-hypnose-swiper-2.jpg
+  - image: /images/hypnose/regula-aschwanden-hypnose-swiper-3.jpg
+
+---
+
+
+
+{% include sub-menu.html %}
+
+
+
+<section class="bg-light">
+  <div class="pa4">
+    <img src="/icons/regula-aschwanden-icon-braun.svg">
+  </div>
+  <div class="editable padded capped-width">
+    <div class="padded">
+      <h1> Hypnose </h1>
+      <p>Hypnose – Veränderung beginnt in dir</p>
+
+      <p>Viele Menschen kommen zu mir, weil sie spüren, dass etwas in ihrem Leben nicht mehr stimmig ist. Sie wünschen sich mehr Leichtigkeit, innere Ruhe und die Freiheit, ihren eigenen Weg zu gehen.</p>
+
+      <p>Immer wieder erlebe ich, wie überrascht meine Klientinnen und Klienten sind, wie schnell sich durch Hypnose etwas verändern kann. Sie berichten von:</p>
+
+      <ul>
+        <li>mehr innerer Ruhe</li>
+        <li>mehr Leichtigkeit</li>
+        <li>neuer Energie</li>
+        <li>mehr Selbstvertrauen</li>
+        <li>mehr Freiheit im Alltag</li>
+      </ul>
+
+      <p>Hypnose kann dabei helfen, unbewusste Muster sichtbar zu machen und Blockaden sanft zu lösen. Dadurch entsteht Raum für neue Perspektiven, mehr Klarheit und eine tiefere Verbindung zu dir selbst.</p>
+      <br>
+      <a href="/termin-buchen.html" class="button-2"> Termin buchen </a>
+    </div>
+  </div>
+</section>
+
+<section class="bg-v-light">
+  <div class="editable padded capped-width grid-middle-spaceAround">
+    <div class="col-12 padded padded-b-0">
+      <h2> Wobei ich dich begleiten kann </h2> 
+    </div>
+    <div class="padded col-6 padded">
+      <p class="emphasis">Jeder Mensch ist einzigartig. Deshalb gestalte ich jede Sitzung individuell und abgestimmt auf deine persönlichen Bedürfnisse.</p>
+
+      <p>Hypnose kann unter anderem unterstützen bei:</p>
+
+      <ul>
+        <li>Ängsten und Unsicherheiten</li>
+        <li>Stress und Erschöpfung</li>
+        <li>Burnout</li>
+        <li>Schlafproblemen</li>
+        <li>Schmerzen</li>
+        <li>Allergien</li>
+        <li>Essstörungen</li>
+        <li>Gewichtsreduktion</li>
+        <li>mangelndem Selbstvertrauen und Selbstbewusstsein</li>
+        <li>Stärkung des Urvertrauens</li>
+        <li>emotionalen Belastungen und vielen weiteren Themen</li>
+      </ul>
+    </div>
+    <div class="col-6 padded">
+      <img src="/images/hypnose/regula-aschwanden-hypnose-2.jpg" class="img-style-1">
+    </div>
+    <div class="col-12 padded padded-t-0">
+      <div class="editable padded-2 center">
+        <p class="quote"> wahrnehmen. erkennen. gehen. </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-medium">
+  <div class="editable padded capped-width">
+    <div class="padded">
+      <h2> Warum Hypnose? </h2>
+      <p>Weil Veränderung nicht schwer sein muss.</p>
+
+      <p>Weil du nicht alles allein bewältigen musst.</p>
+
+      <p>Und weil in dir bereits alles vorhanden ist, was du für deinen nächsten Schritt brauchst.</p>
+
+      <p>Ich begleite dich achtsam, wertschätzend und auf Augenhöhe auf deinem Weg zu mehr Freiheit, Leichtigkeit und Lebensfreude.</p>
+      <br>
+      <a href="/termin-buchen.html" class="button-2"> Termin buchen </a>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="padded capped-width">
+  <!-- Slider main container -->
+  <div class="swiper-quer">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      {% for swiper in page.swiper_1 %}
+        <div class="swiper-slide">
+          <div class="bg-image bg-image-swiper landscape" style="background-image: url('{{ swiper.image }}');"></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <!-- <div class="try-to-slide editable">
+    <p> -> du kannst hier swipen </p>
+  </div> -->
+</section>

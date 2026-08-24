@@ -1,0 +1,107 @@
+---
+layout: default
+title: Homepage
+seo:
+  title: 
+  description:
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
+header_banners:
+  - /images/astrologie/regula-aschwanden-astrologie-banner.jpg
+swiper: true
+swiper_1:
+  - image: /images/astrologie/regula-aschwanden-astrologie-swiper-1.jpg
+  - image: /images/astrologie/regula-aschwanden-astrologie-swiper-2.jpg
+  - image: /images/astrologie/regula-aschwanden-astrologie-swiper-3.jpg
+  - image: /images/astrologie/regula-aschwanden-astrologie-swiper-4.jpg
+
+---
+
+
+
+{% include sub-menu.html %}
+
+
+
+
+
+<section class="capped-width">
+  <div class="editable padded">
+    <div class="padded">
+      <h1> Astrologie </h1>
+      <p>Dein Horoskop macht sichtbar, was sonst verborgen bleibt. Es zeigt dir neue Wege auf, schafft Freiheit im Denken und Fühlen und bringt ans Licht, was in dir wirken und wachsen möchte.</p>
+
+      <p>Astrologie der Neuen Zeit bedeutet:</p>
+
+      <ul>
+      <li>mehr Bewusstheit über deine Muster und Potenziale</li>
+      <li>innere Ruhe, weil du dich selbst besser verstehst</li>
+      <li>Selbstwert und Dankbarkeit, für das, was dich ausmacht</li>
+      <li>Klarheit, um deinen Weg authentisch zu gehen</li>
+      </ul>
+
+      <p>Es geht nicht um Schicksal – sondern um Möglichkeiten.</p>
+      <br>
+      <a href="/termin-buchen.html" class="button"> Termin buchen </a>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section>
+  <div class="editable padded padded-b-0 capped-width grid-middle-spaceAround">
+    <div class="col-12 padded padded-b-0">
+      <h2> Mein Angebot </h2> 
+    </div>
+    <div class="col-6 padded">
+      <img src="/images/astrologie/regula-aschwanden-astrologie-2.jpg" class="img-style-1">
+    </div>
+    <div class="padded col-6 padded">
+      <ul>
+        <li>Radix</li>
+        <li>Dein Geburtshoroskop: die energetische Grundlage deines Lebens.</li>
+        <li>Solar</li>
+        <li>Die Jahresenergie: Welche Themen, Lernfelder und Chancen bringt dein neues Lebensjahr?</li>
+        <li>Potenzialanalyse</li>
+        <li>Was dich einzigartig macht – und wie du es bewusst nutzen kannst.</li>
+        <li>Entwicklungswege</li>
+        <li>Impulse für innere Prozesse, Wachstum und Orientierung.</li>
+        <li>Talente & Ressourcen</li>
+        <li>Die Energien, die dich stärken, tragen und unterstützen.</li>
+        <li>Alterspunkt</li>
+        <li>Die natürlichen Lebensrhythmen erkennen und aktiv begleiten.</li>
+      </ul>
+    </div>
+    <div class="col-12 padded padded-t-0">
+      <div class="editable padded-2 center">
+        <p class="quote"> wahrnehmen. erkennen. gehen. </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="padded capped-width">
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      {% for swiper in page.swiper_1 %}
+        <div class="swiper-slide">
+          <div class="bg-image bg-image-swiper portrait" style="background-image: url('{{ swiper.image }}');"></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <!-- <div class="try-to-slide editable">
+    <p> -> du kannst hier swipen </p>
+  </div> -->
+</section>

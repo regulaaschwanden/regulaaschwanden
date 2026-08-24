@@ -1,10 +1,34 @@
-collections:
-  posts:
-    output: true
-    permalink: /posts/:year/:slug
-  archives: 
-    output: true
-    
+# Default site language (fallback for normal pages)
+lang: de
+
+defaults:
+  # German posts
+  - scope:
+      path: "_posts"
+    values:
+      lang: de
+      permalink: /posts/:year/:slug/
+
+  # English posts
+  - scope:
+      path: "en/_posts"
+    values:
+      lang: en
+      permalink: /en/posts/:year/:slug/
+
+  # English projects — items under _projekte/en/*
+  - scope:
+      path: "_projekte/en"
+    values:
+      lang: en
+      permalink: /en/projekt/:name/
+
+  # German projects — everything else under _projekte/*
+  - scope:
+      path: "_projekte"
+    values:
+      lang: de
+      permalink: /projekt/:name/
     
 _options:
   content:

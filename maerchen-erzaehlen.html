@@ -1,0 +1,106 @@
+---
+layout: default
+title: Homepage
+seo:
+  title: 
+  description:
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
+swiper: true
+header_banners:
+  - /images/maerchen-erzaehlen/regula-aschwanden-maerchen-erzaehlen-banner.jpg
+swiper_1:
+  - image: /images/maerchen-erzaehlen/regula-aschwanden-maerchen-erzaehlen-swiper-1.jpg
+  - image: /images/maerchen-erzaehlen/regula-aschwanden-maerchen-erzaehlen-swiper-2.jpg
+  - image: /images/maerchen-erzaehlen/regula-aschwanden-maerchen-erzaehlen-swiper-3.jpg
+  - image: /images/maerchen-erzaehlen/regula-aschwanden-maerchen-erzaehlen-swiper-4.jpg
+  - image: /images/maerchen-erzaehlen/regula-aschwanden-maerchen-erzaehlen-swiper-5.jpg
+
+---
+
+<!------------------------ Image Banner  ------------------------>
+
+{% include sub-menu.html %}
+
+
+<section class="bg-v-light">
+  <div class="editable padded capped-width grid-middle-spaceAround">
+
+    <div class="padded col-6 padded">
+      <h1> Märchen erzählen </h1> 
+
+      <p class="emphasis"> Märchen und Geschichten – Die Brücke zur inneren Weisheit </p>
+
+      <p> Märchen und Geschichten begleiten die Menschheit seit jeher. Sie berühren unsere Seele, öffnen unser Herz und erzählen auf symbolische Weise von den Herausforderungen, Möglichkeiten und Wandlungsprozessen des Lebens. Oft erkennen wir in einer Geschichte etwas von uns selbst wieder. Bilder, Symbole und Botschaften können uns dort erreichen, wo Worte allein manchmal nicht genügen.
+      </p>
+      <br>
+      <a href="/termin-buchen.html" class="button"> Termin buchen </a>
+    </div>
+    <div class="col-6 padded">
+      <img src="/images/maerchen-erzaehlen/regula-aschwanden-maerchen-erzaehlen-2.jpg" class="img-style-1">
+    </div>
+  </div>
+</section>
+
+
+
+<section class="relative">
+  <div class="grid padded">
+    <div class="col-10 padded  bg-index-1">
+      <h2> Wahrnehmen </h2>
+      <p> 
+       Märchen und Geschichten laden uns ein, innezuhalten und wahrzunehmen, was in uns berührt wird. Welche Bilder sprechen uns an? Welche Gefühle werden geweckt? Welche Figur oder Situation zieht unsere Aufmerksamkeit auf sich?
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="relative">
+  <div class="grid padded padded-t-0">
+    <div class="col-2 relative">  <div class="pa2">
+    <img src="/icons/regula-aschwanden-icon-braun.svg">
+  </div></div>
+    <div class="col-10 padded  bg-index-2">
+      <h2> Bewusst werden </h2>
+      <p> 
+        Beim bewussten Betrachten der Geschichte werden verborgene Zusammenhänge sichtbar. Wir erkennen eigene Muster, Sehnsüchte, Stärken und Herausforderungen. So entsteht ein tieferes Verständnis für den eigenen Lebensweg.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<section class="capped-width relative">
+  <div class="grid padded padded-t-0">
+    <div class="col-12 padded  bg-index-3">
+      <h2> Gehen </h2>
+      <p>Aus dieser Erkenntnis können neue Schritte entstehen. Die Botschaft der Geschichte wird zu einer Orientierungshilfe und Einladung, den eigenen Weg mutig, vertrauensvoll und authentisch weiterzugehen.</p>
+      <p> Märchen und Geschichten sind weit mehr als Unterhaltung. Sie können Brücken bauen zwischen dem Verstand und dem Herzen, zwischen dem Sichtbaren und dem Verborgenen. Sie erinnern uns daran, dass jeder Mensch seine eigenen Schätze in sich trägt und dass jeder Weg, so herausfordernd er auch sein mag, neue Möglichkeiten und Wachstum bereithält.</p>
+      <p class="emphasis"> „Jede Geschichte beginnt mit einem ersten Schritt. Die wichtigste Frage ist nicht, wo der Weg endet, sondern ob wir bereit sind, ihn zu gehen.“</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="padded capped-width">
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      {% for swiper in page.swiper_1 %}
+        <div class="swiper-slide">
+          <div class="bg-image bg-image-swiper portrait" style="background-image: url('{{ swiper.image }}');"></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <!-- <div class="try-to-slide editable">
+    <p> -> du kannst hier swipen </p>
+  </div> -->
+</section>
