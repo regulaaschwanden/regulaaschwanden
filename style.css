@@ -383,9 +383,7 @@ p a {
     font-size: 1.2rem;
 }
 
-.button:hover {
-    color: var(--light-text);
-}
+
 
 .button-2 { 
     display: inline-block;
@@ -399,9 +397,7 @@ p a {
     color: var(--dark-text);
 }
 
-.button-2:hover {
-    color: var(--featured-text);
-}
+
 
 .subtle-button {
   text-decoration: none;
