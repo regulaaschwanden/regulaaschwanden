@@ -363,18 +363,14 @@ a {
     color: inherit;
 }
 
-a:hover {
-  color: var(--featured-text); 
-}
+
 
 p a {
     text-decoration: none;
     border-bottom: 1px solid;
 }
 
-p a:hover { 
-  color: var(--featured-text); 
-}
+
 
 .button { 
     display: inline-block;
@@ -388,7 +384,7 @@ p a:hover {
 }
 
 .button:hover {
-    color: var(--featured-text);
+    color: var(--light-text);
 }
 
 .button-2 { 
@@ -425,9 +421,7 @@ nav a {
     text-decoration: none;
     font-size: 1.3rem;
 }
-nav a:hover {
-  color: var(--featured-text);
-}
+
 
 .index-2 a {
   font-family: 'Cairo', serif;
@@ -603,7 +597,6 @@ footer nav a {
 .dropdown { 
   position: relative; 
   display: inline-block;
-  border: 1px solid orange;
 }
 
 .dropdown-title {
@@ -621,7 +614,6 @@ footer nav a {
   z-index: 2;
   text-align: left;
   min-width: 10rem;
-  border: 1px solid mediumvioletred;
 }
 
 .dropdown:hover .dropdown-content{ 
