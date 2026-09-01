@@ -969,6 +969,13 @@ hr.short.center {
     background-color: transparent;
   }
 
+  .index-2 a {
+  font-family: 'Cairo', serif;
+  font-size: 1.7rem;
+  padding: 0 0.7rem;
+  background-color: var(--v-light);
+}
+
 }
 
 /* ------- SM Media Query (48em / 768px) --------------- */ 
