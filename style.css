@@ -169,14 +169,14 @@ html {
   background-color: var(--medium);
   border: 1px solid var(--dark-text);
   border-radius: 0 2rem 2rem 0 ;
-  margin-left: -5%;
+  margin-left: -7%;
 }
 
 .bg-index-2 {
   background-color: var(--v-light);
   border: 1px solid var(--dark-text);
   border-radius:  2rem 0 0 2rem ;
-  margin-left: 26%;
+  margin-left: 24%;
 }
 
 .bg-index-3 {
@@ -189,14 +189,14 @@ html {
   background-color: var(--medium);
   border: 1px solid var(--dark-text);
   border-radius: 0 2rem 2rem 0 ;
-  margin-left: -5%;
+  margin-left: -7%;
 }
 
 .bg-index-5 {
   background-color: var(--featured);
   border: 1px solid var(--dark-text);
   border-radius:  2rem 0 0 2rem ;
-  margin-left: 26%;
+  margin-left: 24%;
 }
 
 
@@ -808,7 +808,7 @@ footer nav a {
 }
 
 .mobile-menu a {
-  font-family: 'Poiret One', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: block;
   padding: 0.5rem 1rem;
   font-size: 1.3rem;
