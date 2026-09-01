@@ -774,8 +774,9 @@ footer nav a {
 }
 
 .mobile-logo {
-  width: 10rem;
+  width: 11rem;
   padding-top: 5%;
+  padding-bottom: 2rem;
 }
 
 .mobile-menu {
