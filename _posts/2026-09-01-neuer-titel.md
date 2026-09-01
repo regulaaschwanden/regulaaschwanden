@@ -8,7 +8,7 @@ categories:
   - achtsamkeit
   - bewusstsein
   - persönliche-entwicklung
-featured_image: /uploads/pajuramacopyright-135-1.jpg
+featured_image: /uploads/test-blog.jpg
 seo:
   title: Neuer titel
   description: Neuer Zusammenfassung des Artikels
@@ -17,7 +17,7 @@ seo:
   keywords: 'hypnose, hypnose brunnen, '
   hide-from-google: false
 header_banners:
-  - /uploads/pajuramacopyright-135-1.jpg
+  - /uploads/test-blog.jpg
 ---
 ### Neuer Titel
 
