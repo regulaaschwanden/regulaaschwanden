@@ -1,16 +1,21 @@
 seo:
-  site_name: Example
-  title: Example SEO Title
-  description:
-  keywords:
-  social_image:
-  author:
-  favicon_image:
+  site_name: Regula Aschwanden
+  title: Regula Aschwanden | Hypnose, Astrologie & Familienstellen in Brunnen
+  description: >-
+    Regula Aschwanden begleitet dich in ihrer Praxis in Brunnen mit Hypnose,
+    Astrologie, Familienstellen, Lernwerkstatt und Märchen auf deinem Weg zu
+    mehr Klarheit, Freiheit und innerer Balance.
+  keywords: Regula Aschwanden, Hypnose Brunnen, Astrologie Brunnen, Familienstellen Brunnen, Lernwerkstatt Brunnen, Märchen erzählen Brunnen, persönliche Entwicklung Schwyz, Hypnose Schwyz, Astrologie Schwyz, Familienstellen Schwyz
+  social_image: /images/regula-aschwanden-index-banner-1.jpg
+  author: Regula Aschwanden
+  favicon_image: /icons/regula-aschwanden-icon-braun.svg
+
 social:
   instagram_url: https://www.instagram.com/regula.aschwanden/
   facebook_url:
   pinterest_url:
   linkedin_url: https://www.linkedin.com/in/regula-aschwanden-49352923/
+
 design:
   dark-text_color: '#3A3020'
   medium-text_color: '#5a5a5f'
