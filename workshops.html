@@ -1,0 +1,155 @@
+---
+layout: default
+title: Kalender
+
+seo:
+  title: Kalender | Regula Aschwanden
+  description: >-
+    Hier findest du die aktuellen Workshops und Veranstaltungen von Regula Aschwanden.
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
+
+header_banners:
+  - /images/regula-aschwanden-workshops.jpg
+---
+
+<section class="center padded-2">
+  <h1 class="fourrem editable">Kalender</h1>
+</section>
+
+
+<section>
+
+  {% for event in site.data.events.events %}
+
+  <section class="bg-gradient-1 kalender-section">
+
+    <section class="capped-width padded padded-b-2 padded-t-2 grid-middle-spaceBetween">
+
+      <div class="col-12_xs-12">
+
+        {% if event.theme %}
+        <h2 class="lindsey editable margin-b-05 tworem">
+          {{ event.theme }}
+        </h2>
+        {% endif %}
+
+        {% if event.title %}
+        <h2 class="editable rem25">
+          {{ event.title }}
+        </h2>
+        {% endif %}
+
+        {% if event.text %}
+        <p class="editable">
+          {{ event.text }}
+        </p>
+        {% endif %}
+
+        {% if event.datum %}
+        <div class="kalender-datum">
+          {{ event.datum }}
+        </div>
+        {% endif %}
+
+        {% if event.zeit %}
+        <p class="editable">
+          <strong>Zeit:</strong><br>
+          {{ event.zeit }}
+        </p>
+        {% endif %}
+
+        {% if event.leitung %}
+        <p class="editable">
+          <strong>Leitung:</strong><br>
+          {{ event.leitung }}
+        </p>
+        {% endif %}
+
+        {% if event.ort %}
+        <p class="editable">
+          <strong>Ort:</strong><br>
+          {{ event.ort }}
+        </p>
+        {% endif %}
+
+        {% if event.teilnehmerzahl %}
+        <p class="editable">
+          <strong>Teilnehmerzahl:</strong><br>
+          {{ event.teilnehmerzahl }}
+        </p>
+        {% endif %}
+
+        {% if event.kosten %}
+        <p class="editable">
+          <strong>Kosten:</strong><br>
+          {{ event.kosten }}
+        </p>
+        {% endif %}
+
+        {% if event.anmeldung-name %}
+        <p class="editable">
+          <strong>Anmeldung:</strong><br>
+          {{ event.anmeldung-name }}
+
+          {% if event.anmeldung-mobile %}
+          <br>
+          Mobile:
+          <a href="tel:{{ event.anmeldung-mobile-link }}">
+            {{ event.anmeldung-mobile }}
+          </a>
+          {% endif %}
+
+          {% if event.anmeldung-email %}
+          <br>
+          E-Mail:
+          <a href="mailto:{{ event.anmeldung-email }}">
+            {{ event.anmeldung-email }}
+          </a>
+          {% endif %}
+        </p>
+        {% endif %}
+
+      </div>
+
+
+
+      {% if event.anmelden-1 and event.anmelden-1-button-text %}
+      <div class="col-12-center-middle center padded-1">
+        <a href="{{ event.anmelden-1 }}" class="button">
+          {{ event.anmelden-1-button-text }}
+        </a>
+      </div>
+      {% endif %}
+
+
+      {% if event.anmelden-2 and event.anmelden-2-button-text %}
+      <div class="col-12-center-middle center padded-1">
+        <a href="{{ event.anmelden-2 }}" class="button">
+          {{ event.anmelden-2-button-text }}
+        </a>
+      </div>
+      {% endif %}
+
+    </section>
+
+  </section>
+
+  {% endfor %}
+
+
+  <div class="capped-width padded center">
+    <h2>Noch Fragen?</h2>
+
+    <p>
+      Melde dich gerne direkt bei Regula Aschwanden.
+    </p>
+
+    <a href="/kontakt.html" class="button">
+      Kontakt aufnehmen
+    </a>
+  </div>
+
+</section>
