@@ -26,9 +26,15 @@ header_banners:
 
   <section class="bg-gradient-1 kalender-section">
 
-    <section class="capped-width padded padded-b-2 padded-t-2 grid-middle-spaceBetween">
+    <section class="capped-width padded padded-b-0 padded-t-2 grid-middle-spaceBetween">
 
       <div class="col-12_xs-12">
+
+        {% if event.datum %}
+        <div class="kalender-datum">
+          {{ event.datum }}
+        </div>
+        {% endif %}
 
         {% if event.theme %}
         <h2 class="lindsey editable margin-b-05 tworem">
@@ -48,11 +54,6 @@ header_banners:
         </p>
         {% endif %}
 
-        {% if event.datum %}
-        <div class="kalender-datum">
-          {{ event.datum }}
-        </div>
-        {% endif %}
 
         {% if event.zeit %}
         <p class="editable">
