@@ -638,6 +638,15 @@ footer nav a {
   min-width: 10rem;
 }
 
+.dropdown-content-mobile {
+  padding-left: 1rem;
+}
+
+.dropdown-content-mobile a {
+  font-size: 1rem;
+  font-style: italic;
+}
+
 .dropdown:hover .dropdown-content{ 
   display: block;
 }
@@ -653,7 +662,7 @@ footer nav a {
   position:fixed;
   top: 2vh;
   right: 4vh;
-  z-index: 9;
+  z-index: 55;
   padding: 8px;
   margin-top: 0.8rem;
   line-height: 1.7;
@@ -665,7 +674,7 @@ footer nav a {
   position:fixed;
   top: 2vh;
   right: 2vh;
-  z-index: 9;
+  z-index: 55;
   padding: 8px;
   margin-top: 0.6rem;
   line-height: 1.7;
@@ -676,7 +685,7 @@ footer nav a {
 
 .burger-button-index span{
   width: 35px;
-  border: 2px solid var(--medium);
+  border: 1px solid var(--medium);
   background-color: white;
   display: block;
   transition: 0.5s;
@@ -684,13 +693,13 @@ footer nav a {
   margin-bottom: 10px;
 }
 .burger-button-index.active span{
-  border-color: var(--light);
+  border-color: white;
   background-color:white;
 }
 
 .burger-button span{
   width: 35px;
-  border: 2px solid var(--medium);
+  border: 1px solid var(--medium);
   background-color: white;
   display: block;
   transition: 0.5s;
@@ -698,7 +707,7 @@ footer nav a {
   margin-bottom: 10px;
 }
 .burger-button.active span{
-  border-color: var(--light);
+  border-color: white;
   background-color:white;
 }
 
@@ -764,11 +773,16 @@ footer nav a {
   color: var(--dark-text)
 }
 
+.mobile-logo {
+  width: 10rem;
+  padding-top: 5%;
+}
+
 .mobile-menu {
-  background-color: var(--featured);
+  background-color: var(--light);
   padding: 0 5% 5% 5%;
   position: fixed; 
-  z-index: 1;
+  z-index: 10;
   top: 0;
   right: -100%;
   left: 100vw;
@@ -782,7 +796,7 @@ footer nav a {
 
 .mobile-menu.active {
   right: 0;
-  left: 20vw;
+  left: 0;
 }
 
 .logo-mobile-menu {
@@ -949,6 +963,11 @@ hr.short.center {
 	.show-md { display: block; }
 	.hide-md { display: none;  }
 
+  .header-content {
+    border: none;
+    background-color: transparent;
+  }
+
 }
 
 /* ------- SM Media Query (48em / 768px) --------------- */ 
@@ -992,4 +1011,74 @@ hr.short.center {
       font-weight: 300;
       font-family: 'Martel', serif; 
     }
+
+    .pa-bg-logo-header {
+      width: 10rem;
+    }
+
+    .xs-tall-50  { min-height: 50vh; }
+
+    .pa1 {
+      position: absolute;
+      top: -7rem;
+      width: 6rem;
+      right: 2rem;
+    }
+
+    .bg-index-1 {
+      background-color: var(--medium);
+      border: 1px solid var(--dark-text);
+      border-radius: 2rem;
+      margin-left: 0;
+    }
+
+    .bg-index-2 {
+      background-color: var(--v-light);
+      border: 1px solid var(--dark-text);
+      border-radius:  2rem ;
+      margin-left: 0;
+    }
+
+    .bg-index-3 {
+      background-color: var(--dark);
+      border: 1px solid var(--dark-text);
+      border-radius:  2rem ;
+    }
+
+    .bg-index-4 {
+      background-color: var(--medium);
+      border: 1px solid var(--dark-text);
+      border-radius: 2rem ;
+      margin-left: 0;
+    }
+
+    .bg-index-5 {
+      background-color: var(--featured);
+      border: 1px solid var(--dark-text);
+      border-radius:  2rem  ;
+      margin-left:0;
+    }
+
+    .xs-padded-0 { padding: 0; }
+
+    .xs-margin-b-1 { margin-bottom: 1rem;}
+    .xs-margin-t-1 { margin-top: 1rem;}
+
+
+    footer nav a {
+      text-align: center;
+      display: block;
+      text-decoration: none;
+      padding: 0.5rem 0 0.5rem 0;
+      font-weight: 300;
+    }
+
+    footer nav {
+      margin-top: 1.5rem;
+    }
+
+    .xs-center {
+      text-align: center;
+    }
+
 }
