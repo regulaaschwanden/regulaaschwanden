@@ -1,37 +1,10 @@
 events:
-
   - title: Familienstellen Workshop
     theme: Ein Raum für Heilung, Verständnis und neue Wege.
-    text: >-
-      Manchmal tragen wir Themen, die gar nicht zu uns gehören.
-      In der Aufstellungsarbeit nehmen wir wahr, was da ist, erkennen
-      Zusammenhänge und gehen neue, befreiende Wege. So darf sich
-      lösen, was dich bisher zurückgehalten hat.
-    datum: Samstag, 05.09.2026
-    zeit: 10:00 – 17:00 Uhr
-    leitung: Regula Aschwanden, erfahrene Therapeutin
-    ort: Bio und Meh, Hauptstrasse 68, 8840 Einsiedeln
-    teilnehmerzahl: Max. 10 Personen – ein achtsamer, persönlicher Rahmen
-    kosten: Eigene Aufstellung CHF 270.– / Stellvertretung CHF 90.–
-    anmeldung-name: Regula Aschwanden
-    anmeldung-mobile: 079 341 72 37
-    anmeldung-mobile-link: "+41793417237"
-    anmeldung-email: info@regulaaschwanden.ch
-    image:
-    url:
-    anmelden-1-button-text: Anmelden
-    anmelden-1: /kontakt.html
-    anmelden-2-button-text:
-    anmelden-2:
-
-
-  - title: Familienstellen Workshop
-    theme: Ein Raum für Heilung, Verständnis und neue Wege.
-    text: >-
-      Manchmal tragen wir Themen, die gar nicht zu uns gehören.
-      In der Aufstellungsarbeit nehmen wir wahr, was da ist, erkennen
-      Zusammenhänge und gehen neue, befreiende Wege. So darf sich
-      lösen, was dich bisher zurückgehalten hat.
+    text: Manchmal tragen wir Themen, die gar nicht zu uns gehören. In der
+      Aufstellungsarbeit nehmen wir wahr, was da ist, erkennen Zusammenhänge und
+      gehen neue, befreiende Wege. So darf sich lösen, was dich bisher
+      zurückgehalten hat.
     datum: Samstag, 26.09.2026
     zeit: 10:00 – 17:00 Uhr
     leitung: Regula Aschwanden, erfahrene Therapeutin
@@ -40,7 +13,7 @@ events:
     kosten: Eigene Aufstellung CHF 270.– / Stellvertretung CHF 90.–
     anmeldung-name: Regula Aschwanden
     anmeldung-mobile: 079 341 72 37
-    anmeldung-mobile-link: "+41793417237"
+    anmeldung-mobile-link: '+41793417237'
     anmeldung-email: info@regulaaschwanden.ch
     image:
     url:
@@ -48,15 +21,34 @@ events:
     anmelden-1: /kontakt.html
     anmelden-2-button-text:
     anmelden-2:
-
-
   - title: Familienstellen Workshop
     theme: Ein Raum für Heilung, Verständnis und neue Wege.
-    text: >-
-      Manchmal tragen wir Themen, die gar nicht zu uns gehören.
-      In der Aufstellungsarbeit nehmen wir wahr, was da ist, erkennen
-      Zusammenhänge und gehen neue, befreiende Wege. So darf sich
-      lösen, was dich bisher zurückgehalten hat.
+    text: Manchmal tragen wir Themen, die gar nicht zu uns gehören. In der
+      Aufstellungsarbeit nehmen wir wahr, was da ist, erkennen Zusammenhänge und
+      gehen neue, befreiende Wege. So darf sich lösen, was dich bisher
+      zurückgehalten hat.
+    datum: 'Samstag, '
+    zeit: 10:00 – 17:00 Uhr
+    leitung: Regula Aschwanden, erfahrene Therapeutin
+    ort: Bio und Meh, Hauptstrasse 68, 8840 Einsiedeln
+    teilnehmerzahl: Max. 10 Personen – ein achtsamer, persönlicher Rahmen
+    kosten: Eigene Aufstellung CHF 270.– / Stellvertretung CHF 90.–
+    anmeldung-name: Regula Aschwanden
+    anmeldung-mobile: 079 341 72 37
+    anmeldung-mobile-link: '+41793417237'
+    anmeldung-email: info@regulaaschwanden.ch
+    image:
+    url:
+    anmelden-1-button-text: Anmelden
+    anmelden-1: /kontakt.html
+    anmelden-2-button-text:
+    anmelden-2:
+  - title: Familienstellen Workshop
+    theme: Ein Raum für Heilung, Verständnis und neue Wege.
+    text: Manchmal tragen wir Themen, die gar nicht zu uns gehören. In der
+      Aufstellungsarbeit nehmen wir wahr, was da ist, erkennen Zusammenhänge und
+      gehen neue, befreiende Wege. So darf sich lösen, was dich bisher
+      zurückgehalten hat.
     datum: Samstag, 07.11.2026
     zeit: 10:00 – 17:00 Uhr
     leitung: Regula Aschwanden, erfahrene Therapeutin
@@ -65,7 +57,7 @@ events:
     kosten: Eigene Aufstellung CHF 270.– / Stellvertretung CHF 90.–
     anmeldung-name: Regula Aschwanden
     anmeldung-mobile: 079 341 72 37
-    anmeldung-mobile-link: "+41793417237"
+    anmeldung-mobile-link: '+41793417237'
     anmeldung-email: info@regulaaschwanden.ch
     image:
     url:
@@ -73,8 +65,6 @@ events:
     anmelden-1: /kontakt.html
     anmelden-2-button-text:
     anmelden-2:
-
-
   - title: Einstimmung auf die Rauhnächte
     theme: Geschichten und Märchen
     text:
@@ -86,7 +76,7 @@ events:
     kosten:
     anmeldung-name: Regula Aschwanden
     anmeldung-mobile: 079 341 72 37
-    anmeldung-mobile-link: "+41793417237"
+    anmeldung-mobile-link: '+41793417237'
     anmeldung-email: info@regulaaschwanden.ch
     image:
     url:
@@ -94,8 +84,6 @@ events:
     anmelden-1: mailto:info@regulaaschwanden.ch
     anmelden-2-button-text:
     anmelden-2:
-
-
   - title: Walpurgisnacht
     theme: Geschichten von wilden und weisen Frauen
     text:
@@ -107,7 +95,7 @@ events:
     kosten:
     anmeldung-name: Regula Aschwanden
     anmeldung-mobile: 079 341 72 37
-    anmeldung-mobile-link: "+41793417237"
+    anmeldung-mobile-link: '+41793417237'
     anmeldung-email: info@regulaaschwanden.ch
     image:
     url:
