@@ -12,7 +12,7 @@ categories:
   - achtsamkeit
   - bewusstsein
   - persönliche-entwicklung
-featured_image: /uploads/pajuramacopyright-51-2-2-2-1.jp
+featured_image: '/uploads/pajuramacopyright-51-2-2-2-3.jpg '
 seo:
   title: Krankheit als Weg aus der Sicht des systemischen Stellens
   description: Warum bewusste Wahrnehmung der erste Schritt für Veränderung ist
@@ -25,7 +25,7 @@ seo:
     kabat-zinn
   hide-from-google: false
 header_banners:
-  - /uploads/pajuramacopyright-51-2
+  - /uploads/pajuramacopyright-51-2-2-2-3.jpg
 ---
 ### Krankheit als Weg aus der Sicht des systemischen Stellens
 
