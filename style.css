@@ -628,7 +628,7 @@ footer nav a {
 .dropdown-content {
   position: absolute;
   top: 100%;
-  left: -1rem;
+  left: 0;
   padding: 0.5rem;
   display:none; 
   background-color: var(--light);
