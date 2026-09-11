@@ -11,7 +11,7 @@ categories:
   - achtsamkeit
   - bewusstsein
   - persönliche-entwicklung
-featured_image: /uploads/pajuramacopyright-153.jpg
+featured_image: /uploads/pajuramacopyright-12.jpg
 seo:
   title: Achtsamkeit im Alltag – Bewusstsein als erster Schritt zur Veränderung
   description: Warum bewusste Wahrnehmung der erste Schritt für Veränderung ist
@@ -24,7 +24,7 @@ seo:
     kabat-zinn
   hide-from-google: false
 header_banners:
-  - /uploads/pajuramacopyright-153-1.jpg
+  - /uploads/pajuramacopyright-12.jpg
 ---
 ### **Setze klare Grenzen, achte auf deine eigenen Grenzen und respektiere die Grenzen anderer Menschen**
 
