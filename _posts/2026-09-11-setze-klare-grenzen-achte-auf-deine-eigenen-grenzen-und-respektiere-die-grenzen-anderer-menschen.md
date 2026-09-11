@@ -11,7 +11,7 @@ categories:
   - achtsamkeit
   - bewusstsein
   - persönliche-entwicklung
-featured_image: /uploads/pajuramacopyright-153-1.jpg
+featured_image: /uploads/pajuramacopyright-153.jpg
 seo:
   title: Achtsamkeit im Alltag – Bewusstsein als erster Schritt zur Veränderung
   description: Warum bewusste Wahrnehmung der erste Schritt für Veränderung ist
