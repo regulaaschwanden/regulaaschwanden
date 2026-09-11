@@ -24,7 +24,7 @@ seo:
     kabat-zinn
   hide-from-google: false
 header_banners:
-  - /images/blog/blog-1-banner.jpg
+  - /uploads/pajuramacopyright-153-1.jpg
 ---
 ### **Setze klare Grenzen, achte auf deine eigenen Grenzen und respektiere die Grenzen anderer Menschen**
 
