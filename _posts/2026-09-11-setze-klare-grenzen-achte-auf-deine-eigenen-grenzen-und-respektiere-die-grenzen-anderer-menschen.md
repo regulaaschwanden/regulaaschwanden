@@ -82,6 +82,6 @@ Denn wer seine eigenen Grenzen kennt, schützt nicht nur sich selbst, sondern sc
 
 **Kurz gesagt:**
 
-> **Klare Grenzen bedeuten nicht, andere auszuschließen. Sie bedeuten, sich selbst wertzuschätzen. Wer seine Grenzen kennt und respektiert, schafft Raum für Gesundheit, Klarheit, innere Stärke und Lebensqualität.**
+> **Klare Grenzen bedeuten nicht, andere auszuschliessen. Sie bedeuten, sich selbst wertzuschätzen. Wer seine Grenzen kennt und respektiert, schafft Raum für Gesundheit, Klarheit, innere Stärke und Lebensqualität.**
 
 &nbsp;
