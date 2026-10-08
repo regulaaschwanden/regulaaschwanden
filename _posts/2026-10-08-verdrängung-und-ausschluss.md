@@ -29,7 +29,7 @@ header_banners:
   - /uploads/pajuramacopyright-50.jpg
   - /images/blog/regula-aschwanden-blog-2.jpg
 ---
-## **Verdrängung und Ausschluss**
+### **Verdrängung und Ausschluss**
 
 Manchmal wird uns bewusst, dass wir über viele Jahre oder sogar Jahrzehnte etwas aus unserem Leben ausgeschlossen haben. Oft sind es Themen, über die in Familien nie oder nur selten gesprochen wurde. Manche Ereignisse, Schicksale oder Personen werden über Generationen hinweg tabuisiert.
 
@@ -50,10 +50,6 @@ Es fehlten Anerkennung, Wertschätzung und Achtung für dieses Familienmitglied.
 In solchen Fällen kann es geschehen, dass jemand aus einer späteren Generation unbewusst dessen Schicksal oder Gefühle übernimmt. Diese Person wird gewissermassen zum Platzhalter. Sie kämpft vielleicht immer wieder um ihren Platz, ihre Zugehörigkeit oder ihre Daseinsberechtigung.
 
 Dies kann sich in der Familie zeigen, am Arbeitsplatz, in Beziehungen oder manchmal sogar durch körperliche oder seelische Beschwerden.
-
-> ***Die Liebe zu allen Menschen ist der wahre Ausdruck von Freiheit.***
->
-> *Mahatma Ghandi*
 
 #### **Ein möglicher Weg zur Lösung**
 
