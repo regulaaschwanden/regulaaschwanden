@@ -29,7 +29,7 @@ header_banners:
   - /uploads/pajuramacopyright-50.jpg
   - /images/blog/regula-aschwanden-blog-2.jpg
 ---
-#### **Verdrängung und Ausschluss**
+## **Verdrängung und Ausschluss**
 
 Manchmal wird uns bewusst, dass wir über viele Jahre oder sogar Jahrzehnte etwas aus unserem Leben ausgeschlossen haben. Oft sind es Themen, über die in Familien nie oder nur selten gesprochen wurde. Manche Ereignisse, Schicksale oder Personen werden über Generationen hinweg tabuisiert.
 
@@ -39,9 +39,9 @@ Mit dieser Erkenntnis kann sich ein neuer Weg eröffnen. Eine neue Sichtweise en
 
 Mit dieser Erkenntnis kann sich ein neuer Weg eröffnen. Eine neue Sichtweise entsteht, die uns ungeahnte Möglichkeiten schenkt. Schritt für Schritt entwickeln sich mehr Freiheit, Lebendigkeit und die Möglichkeit, ganz wir selbst zu sein.
 
-&nbsp;
+#### &nbsp;
 
-**Ein Beispiel aus der Familiengeschichte**
+#### **Ein Beispiel aus der Familiengeschichte**
 
 Vielleicht wurde ein Familienmitglied ausgegrenzt, ausgeschlossen oder sogar vergessen. Es hatte keinen Platz in der Familie. Über diese Person wurde nie offen gesprochen, höchstens hinter vorgehaltener Hand.
 
@@ -55,13 +55,13 @@ Dies kann sich in der Familie zeigen, am Arbeitsplatz, in Beziehungen oder manch
 >
 > *Mahatma Ghandi*
 
-**Ein möglicher Weg zur Lösung**
+#### **Ein möglicher Weg zur Lösung**
 
 Wenn das ausgeschlossene Familienmitglied seinen Platz erhält, respektiert, geachtet und innerlich wieder zur Familie dazugehört, kann sich vieles verändern.
 
 Die Stellvertretung wird nicht mehr gebraucht. Die belastenden Muster dürfen sich lösen und die Symptome können sich zurückziehen, weil sie keine Aufgabe mehr erfüllen müssen.
 
-**Der Weg in die Freiheit**
+#### **Der Weg in die Freiheit**
 
 Wenn dich diese Zeilen ansprechen, könnte es ein Hinweis sein, genauer hinzuschauen. Vielleicht wartet hinter alten Belastungen eine neue Freiheit auf dich. Eine Freiheit, die daraus entsteht, dass alles seinen Platz bekommen darf.
 
