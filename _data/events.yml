@@ -5,28 +5,6 @@ events:
       Aufstellungsarbeit nehmen wir wahr, was da ist, erkennen Zusammenhänge und
       gehen neue, befreiende Wege. So darf sich lösen, was dich bisher
       zurückgehalten hat.
-    datum: Samstag, 26.09.2026
-    zeit: 10:00 – 17:00 Uhr
-    leitung: Regula Aschwanden, erfahrene Therapeutin
-    ort: Bio und Meh, Hauptstrasse 68, 8840 Einsiedeln
-    teilnehmerzahl: Max. 10 Personen – ein achtsamer, persönlicher Rahmen
-    kosten: Eigene Aufstellung CHF 270.– / Stellvertretung CHF 90.–
-    anmeldung-name: Regula Aschwanden
-    anmeldung-mobile: 079 341 72 37
-    anmeldung-mobile-link: '+41793417237'
-    anmeldung-email: info@regulaaschwanden.ch
-    image:
-    url:
-    anmelden-1-button-text: Anmelden
-    anmelden-1: /kontakt.html
-    anmelden-2-button-text:
-    anmelden-2:
-  - title: Familienstellen Workshop
-    theme: Ein Raum für Heilung, Verständnis und neue Wege.
-    text: Manchmal tragen wir Themen, die gar nicht zu uns gehören. In der
-      Aufstellungsarbeit nehmen wir wahr, was da ist, erkennen Zusammenhänge und
-      gehen neue, befreiende Wege. So darf sich lösen, was dich bisher
-      zurückgehalten hat.
     datum: Samstag, 07.11.2026
     zeit: 10:00 – 17:00 Uhr
     leitung: Regula Aschwanden, erfahrene Therapeutin
@@ -81,32 +59,6 @@ events:
     anmelden-1: mailto:info@regulaaschwanden.ch
     anmelden-2-button-text:
     anmelden-2:
-  - title: 'Märchenseminar '
-    theme: Frei und authentisch Geschichten erzählen
-    text: BESCHREIBUNG In diesem Seminar lernen Sie, wie Märchen frei, lebendig und
-      authentisch erzählt werden können. Im Mittelpunkt stehen dabei nicht nur
-      die Inhalte der Geschichten, sondern vor allem die Körpersprache, Mimik,
-      Gestik und Stimme. Sie erfahren, wie sie durch bewusste Präsenz, gezielte
-      Ausdrucksformen und eine klare Erzählsprache eine Erzählatmosphäre
-      schaffen, die Kinder wie Erwachsene gleichermassen berührt. Durch
-      praktische Übungen wird das selbstsichere und natürliche Erzählen von
-      Geschichten gefördert.
-    datum: 25.10.2026
-    zeit: 9:00 - 17:00 Uhr
-    leitung: Regula Aschwanden
-    ort: Laubstrasse 4 6430 Schwyz
-    teilnehmerzahl: '10'
-    kosten: CHF 150.00 inkl. Material
-    anmeldung-name: Regula Aschwanden
-    anmeldung-mobile: 079 341 72 37
-    anmeldung-mobile-link: ''
-    anmeldung-email: info@regulaaschwanden
-    image:
-    url:
-    anmelden-1-button-text: ''
-    anmelden-1: ''
-    anmelden-2-button-text:
-    anmelden-2:
   - title: Familienstellen
     theme: Workshop
     text: 'Manchmal tragen wir Themen, die gar nicht zu uns gehören. In der
@@ -158,6 +110,28 @@ events:
       gehen neue, befreiende Wege. So darf sich lösen, was dich bisher
       zurückgehalten hat
     datum: 17.April.2027
+    zeit: 10.00 - 17.00 Uhr
+    leitung: Regula Aschwanden
+    ort: 'Bio und Meh, Hauptstrasse 68, 8840 Einsiedeln '
+    teilnehmerzahl: 'Max. 10 Personen – ein achtsamer, persönlicher Rahmen '
+    kosten: ' Eigene Aufstellung CHF 270.– / Stellvertretung CHF 90.–'
+    anmeldung-name: 'Regula Aschwanden Mobile: 079 341 72 37 E-Mail: info@regulaaschwanden.ch'
+    anmeldung-mobile: ''
+    anmeldung-mobile-link: ''
+    anmeldung-email: ''
+    image:
+    url:
+    anmelden-1-button-text: ''
+    anmelden-1: ''
+    anmelden-2-button-text:
+    anmelden-2:
+  - title: Familienstellen
+    theme: Workeshop
+    text: Manchmal tragen wir Themen, die gar nicht zu uns gehören. In der
+      Aufstellungsarbeit nehmen wir wahr, was da ist, erkennen Zusammenhänge und
+      gehen neue, befreiende Wege. So darf sich lösen, was dich bisher
+      zurückgehalten hat
+    datum: 15. Mai 2027
     zeit: 10.00 - 17.00 Uhr
     leitung: Regula Aschwanden
     ort: 'Bio und Meh, Hauptstrasse 68, 8840 Einsiedeln '
